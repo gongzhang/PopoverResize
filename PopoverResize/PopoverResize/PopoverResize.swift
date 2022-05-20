@@ -238,8 +238,8 @@ public class PopoverResize: NSPopover {
     private static func getCursor(_ name: String) -> NSCursor {
         let path = Bundle(for: self).bundlePath
         
-        let image = NSImage(byReferencingFile: path + "/Resources/resources/\(name)_cursor.pdf")
-        let info = NSDictionary(contentsOfFile: path + "/Resources/resources/\(name)_info.plist")
+        let image = NSImage(byReferencingFile: path + "/Resources/\(name)_cursor.pdf")
+        let info = NSDictionary(contentsOfFile: path + "/Resources/\(name)_info.plist")
         let cursor = NSCursor(image: image!, hotSpot: NSPoint(x: (info!.value(forKey: "hotx")! as AnyObject).doubleValue!, y: (info!.value(forKey: "hoty")! as AnyObject).doubleValue!))
         
         return cursor

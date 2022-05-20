@@ -28,8 +28,8 @@ class ViewController: NSViewController {
 extension ViewController {
     static func create() -> ViewController {
         let id = "ViewController"
-        let storyboard = NSStoryboard(name: NSStoryboard.Name(rawValue: "Main"), bundle: nil)
-        let identifier = NSStoryboard.SceneIdentifier(rawValue: id)
+        let storyboard = NSStoryboard(name: NSStoryboard.Name("Main"), bundle: nil)
+        let identifier = NSStoryboard.SceneIdentifier(id)
         guard let controller = storyboard.instantiateController(withIdentifier: identifier) as? ViewController else {
             fatalError("Where is \(id)? - Check Main.storyboard")
         }

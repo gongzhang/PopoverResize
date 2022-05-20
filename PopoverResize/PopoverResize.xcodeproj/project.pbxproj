@@ -17,14 +17,14 @@
 		27B62ACD2186D024001350DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B62ACB2186D024001350DF /* Main.storyboard */; };
 		27B62AD42186D21D001350DF /* PopoverResize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B62A2E2186C813001350DF /* PopoverResize.framework */; };
 		27B62AD62186D2D8001350DF /* PopoverResize.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27B62A2E2186C813001350DF /* PopoverResize.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		27B62B0D2186ED1E001350DF /* resizenortheastsouthwest_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B052186ED1E001350DF /* resizenortheastsouthwest_cursor.pdf */; };
-		27B62B0E2186ED1E001350DF /* resizenorthsouth_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B062186ED1E001350DF /* resizenorthsouth_cursor.pdf */; };
-		27B62B0F2186ED1E001350DF /* resizeeastwest_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B072186ED1E001350DF /* resizeeastwest_cursor.pdf */; };
-		27B62B102186ED1E001350DF /* resizenorthwestsoutheast_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B082186ED1E001350DF /* resizenorthwestsoutheast_cursor.pdf */; };
-		27B62B112186ED1E001350DF /* resizenorthwestsoutheast_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B092186ED1E001350DF /* resizenorthwestsoutheast_info.plist */; };
-		27B62B122186ED1E001350DF /* resizeeastwest_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B0A2186ED1E001350DF /* resizeeastwest_info.plist */; };
-		27B62B132186ED1E001350DF /* resizenorthsouth_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B0B2186ED1E001350DF /* resizenorthsouth_info.plist */; };
-		27B62B142186ED1E001350DF /* resizenortheastsouthwest_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B0C2186ED1E001350DF /* resizenortheastsouthwest_info.plist */; };
+		F001DA7128377BDD00479DE1 /* resizenorthwestsoutheast_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B092186ED1E001350DF /* resizenorthwestsoutheast_info.plist */; };
+		F001DA7228377BDD00479DE1 /* resizeeastwest_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B072186ED1E001350DF /* resizeeastwest_cursor.pdf */; };
+		F001DA7328377BDD00479DE1 /* resizenortheastsouthwest_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B052186ED1E001350DF /* resizenortheastsouthwest_cursor.pdf */; };
+		F001DA7428377BDD00479DE1 /* resizenorthsouth_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B0B2186ED1E001350DF /* resizenorthsouth_info.plist */; };
+		F001DA7528377BDD00479DE1 /* resizenortheastsouthwest_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B0C2186ED1E001350DF /* resizenortheastsouthwest_info.plist */; };
+		F001DA7628377BDD00479DE1 /* resizeeastwest_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B0A2186ED1E001350DF /* resizeeastwest_info.plist */; };
+		F001DA7728377BDD00479DE1 /* resizenorthsouth_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B062186ED1E001350DF /* resizenorthsouth_cursor.pdf */; };
+		F001DA7828377BDD00479DE1 /* resizenorthwestsoutheast_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B082186ED1E001350DF /* resizenorthwestsoutheast_cursor.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,8 +183,7 @@
 				27B62B0B2186ED1E001350DF /* resizenorthsouth_info.plist */,
 				27B62B0C2186ED1E001350DF /* resizenortheastsouthwest_info.plist */,
 			);
-			name = resources;
-			path = "../../../library-auto-renew/Pods/PopoverResize/PopoverResize/PopoverResize/resources";
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,18 +262,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = "David Boyd";
 				TargetAttributes = {
 					27B62A2D2186C813001350DF = {
 						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 0930;
+						LastSwiftMigration = 1340;
 					};
 					27B62A362186C813001350DF = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1340;
 					};
 					27B62AC22186D023001350DF = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -303,14 +304,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27B62B142186ED1E001350DF /* resizenortheastsouthwest_info.plist in Resources */,
-				27B62B132186ED1E001350DF /* resizenorthsouth_info.plist in Resources */,
-				27B62B102186ED1E001350DF /* resizenorthwestsoutheast_cursor.pdf in Resources */,
-				27B62B0E2186ED1E001350DF /* resizenorthsouth_cursor.pdf in Resources */,
-				27B62B112186ED1E001350DF /* resizenorthwestsoutheast_info.plist in Resources */,
-				27B62B0D2186ED1E001350DF /* resizenortheastsouthwest_cursor.pdf in Resources */,
-				27B62B122186ED1E001350DF /* resizeeastwest_info.plist in Resources */,
-				27B62B0F2186ED1E001350DF /* resizeeastwest_cursor.pdf in Resources */,
+				F001DA7828377BDD00479DE1 /* resizenorthwestsoutheast_cursor.pdf in Resources */,
+				F001DA7728377BDD00479DE1 /* resizenorthsouth_cursor.pdf in Resources */,
+				F001DA7528377BDD00479DE1 /* resizenortheastsouthwest_info.plist in Resources */,
+				F001DA7428377BDD00479DE1 /* resizenorthsouth_info.plist in Resources */,
+				F001DA7328377BDD00479DE1 /* resizenortheastsouthwest_cursor.pdf in Resources */,
+				F001DA7228377BDD00479DE1 /* resizeeastwest_cursor.pdf in Resources */,
+				F001DA7628377BDD00479DE1 /* resizeeastwest_info.plist in Resources */,
+				F001DA7128377BDD00479DE1 /* resizenorthwestsoutheast_info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
